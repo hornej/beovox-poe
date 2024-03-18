@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------------------------------------------------------------------
-NCDrill File Report For: beovox-poe.PcbDoc   3/17/2024  9:54:20 PM
+NCDrill File Report For: beovox-poe.PcbDoc   3/18/2024  11:13:53 AM
 ----------------------------------------------------------------------------------------------------------------------------------
 
 Layer Pair : Top Layer to Bottom Layer
@@ -8,7 +8,7 @@ ASCII SlotHoles File : beovox-poe-SlotHoles.TXT
 
 Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
 ----------------------------------------------------------------------------------------------------------------------------------
-T1      12mil (0.3mm)                                             Round             594       PTH        64.89inch (1648.20mm)
+T1      12mil (0.3mm)                                             Round             594       PTH        64.89inch (1648.19mm)
 T2      28mil (0.711mm)                                           Round             10        PTH        5.40inch (137.21mm)
 T3      30mil (0.762mm)                                           Round             6         PTH        0.50inch (12.70mm)
 T4      32mil (0.8mm)                                             Slot              3         PTH        1.15inch (29.16mm)
