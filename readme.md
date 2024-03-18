@@ -3,10 +3,14 @@
 The beovox-poe project is an 80W PoE-PD PCB and panel mount for powering a [HiFiBerry Beocreate 4 channel amplifier](https://www.hifiberry.com/shop/boards/beocreate-4-channel-amplifier/) for upcycling [B&O BeoVox CX50 and CX100 speakers](https://beoworld.org/prod_details.asp?pid=482).
 
 ## The end result
-- Awesome looking speakers from the 80's 
-![speaker]("https://github.com/hornej/beovox-poe/blob/main/images/IMG_4158.jpeg")
+- Awesome looking speakers
+- AirPlay and other streaming services
+- PoE-powered
+![cx100-front](https://github.com/hornej/beovox-poe/blob/main/images/front.jpeg?raw=true)
+![cx100-back](https://github.com/hornej/beovox-poe/blob/main/images/back.jpeg?raw=true)
 
 # How to build it
+![pcb](https://github.com/hornej/beovox-poe/blob/main/images/pcb.jpeg?raw=true)
 ## PCB
 I designed the PCB to be ordered from [JLCPCB](https://jlcpcb.com/). You should be able to get 2-5 boards fabricated and assembled for about $100 (not including parts you will need to hand assmeble, see below). 
 1. Upload the zipped Gerber file "beovox-poe-mfg-rev2.zip" to JLCPCB
@@ -29,15 +33,19 @@ I designed the PCB to be ordered from [JLCPCB](https://jlcpcb.com/). You should 
 - CAT6 cable
 - Ethernet switch with at least PoE+. You could also use a [PoE injector](https://www.lcsc.com/product-detail/Ethernet-Modules_span-style-background-color-ff0-Winchen-span-WC-PSE90B01_C2848011.html) if your switch doesn't have PoE. 
 - 3D printer filament. I used this [matte white PLA](https://a.co/d/eN3NyxM)
-## Tools
-- Soldering iron
-- 3D printer
+
+## HiFiBerry Beocreate Amp installation
+See the appropriate guide for your speakers on [GitHub](https://github.com/bang-olufsen/create/tree/master/Guides)
+
+![pcb](https://github.com/hornej/beovox-poe/blob/main/images/internals.jpeg?raw=true)
 
 # Repairing your speakers
 Vintage speakers may need some TLC including refoaming the speakers, fixing the frames, and/or reclothing the frames. 
 ## Frames
-CX100/CX50
+You can 3D print frames for CX50/CX100 from [Thingiverse](https://www.thingiverse.com/thing:365459). 
+If you are in the US, I recommend this [black speaker cloth](https://www.joann.com/utility-fabric-black-speaker-cloth/3514023.html) from Joann. It is stretchy and thin which makes it easy to work with. I used this [grey speaker cloth](https://www.parts-express.com/Speaker-Grill-Cloth-Gray-Yard-70-Wide-260-337?quantity=1&custcol1=Speaker%20Grill%20Cloth%20Gray%20Yard%2070%22%20Wide&custcol_ava_item=260-337&custcol_ava_incomeaccount=General&custcol_ava_upccode=844632040153&custcol_ava_pickup=F&custcol_disableshopping=F&undefined=16.99) for the CX100 speakers. It is a little sturdier which I also like.  
 ## Speaker foams
+I tested out some different speaker surrounds from Amazon and eBay and they didn't fit quite right for the CX50/CX100. I highly recommend [these](https://www.repairyourspeakers.com/en/surrounds-by-size/2-4-inch/4-af-86b-rubber-surround-for-repair-speaker/a-2640-10000068) from Audiofriends. They also have this [video](https://youtu.be/A_NZoNgs02c?si=07Pem7QP0-d5mRjE) on how to replace them. 
 
 # Future iterations / improvements
 - I don't see a huge need to have the diode ORing circuit and it also adds a bit of cost relative to the rest of the SMD components. It could just use a slide switch or something to switch between POE power and Barrel jack power. 
