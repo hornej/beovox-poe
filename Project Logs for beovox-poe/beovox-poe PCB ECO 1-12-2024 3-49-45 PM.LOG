@@ -1,0 +1,28 @@
+Change Net Name : Old Net Name=NetCONN1_3 New Net Name=TxRxB_P
+Change Net Name : Old Net Name=NetCONN1_4 New Net Name=TxRxC_P
+Change Net Name : Old Net Name=NetCONN1_5 New Net Name=TxRxC_N
+Change Net Name : Old Net Name=NetCONN1_6 New Net Name=TxRxB_N
+Change Net Name : Old Net Name=NetCONN1_7 New Net Name=TxRxD_P
+Change Net Name : Old Net Name=NetCONN1_8 New Net Name=TxRxD_N
+Change Net Name : Old Net Name=NetCONN2_1 New Net Name=TxRxA1_P
+Change Net Name : Old Net Name=NetCONN2_2 New Net Name=TxRxA1_N
+Change Net Name : Old Net Name=NetCONN2_3 New Net Name=TxRxB1_P
+Change Net Name : Old Net Name=NetCONN2_4 New Net Name=TxRxC1_P
+Change Net Name : Old Net Name=NetCONN2_5 New Net Name=TxRxC1_N
+Change Net Name : Old Net Name=NetCONN2_6 New Net Name=TxRxB1_N
+Change Net Name : Old Net Name=NetCONN2_7 New Net Name=TxRxD1_P
+Change Net Name : Old Net Name=NetCONN2_8 New Net Name=TxRxD1_N
+Added Differential Pair: Name=TxRxA1
+Added Differential Pair: Name=TxRxB1
+Added Differential Pair: Name=TxRxB
+Added Differential Pair: Name=TxRxC1
+Added Differential Pair: Name=TxRxC
+Added Differential Pair: Name=TxRxD1
+Added Differential Pair: Name=TxRxD
+Added Member To Class: ClassName=DIFF100 Member=TxRxA1
+Added Member To Class: ClassName=DIFF100 Member=TxRxB1
+Added Member To Class: ClassName=DIFF100 Member=TxRxB
+Added Member To Class: ClassName=DIFF100 Member=TxRxC1
+Added Member To Class: ClassName=DIFF100 Member=TxRxC
+Added Member To Class: ClassName=DIFF100 Member=TxRxD1
+Added Member To Class: ClassName=DIFF100 Member=TxRxD

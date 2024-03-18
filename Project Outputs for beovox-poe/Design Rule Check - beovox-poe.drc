@@ -1,0 +1,69 @@
+Protel Design System Design Rule Check
+PCB File : C:\Users\joshh\OneDrive\Documents\altium\projects\beovox-poe\beovox-poe.PcbDoc
+Date     : 3/11/2024
+Time     : 11:14:17 AM
+
+Processing Rule : Clearance Constraint (Gap=0.152mm) (InDifferentialPairClass('DIFF100A') or InDifferentialPairClass('DIFF100B')),(InDifferentialPairClass('DIFF100A') or InDifferentialPairClass('DIFF100B'))
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.2mm) (InNetClass('HV') or InNet('BARREL_IN')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.127mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.127mm) (HasFootprint('SMTSOM380_PlatedScrew')),(All)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+   Violation between Un-Routed Net Constraint: Net GND Between Pad U7-2(63.191mm,21.935mm) on Top Layer And Pad C4-1(68mm,20.95mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad U4-3(63.191mm,14.265mm) on Top Layer And Pad U3-3(63.191mm,17.465mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad U6-3(63.191mm,11.065mm) on Top Layer And Pad U4-3(63.191mm,14.265mm) on Top Layer 
+Rule Violations :3
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.152mm) (Max=1.5mm) (Preferred=0.254mm) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.2mm) (Max=6.3mm) (All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=0.254mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=0.076mm) (not (HasFootprint('CONN-SMD_KH-WB205-F20M-03L'))),(All)
+Rule Violations :0
+
+Processing Rule : Silk To Solder Mask (Clearance=0.05mm) (IsPad),(All)
+Rule Violations :0
+
+Processing Rule : Silk to Silk (Clearance=0.05mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mm) (All)
+Rule Violations :0
+
+Processing Rule : Board Clearance Constraint (Gap=0mm) (not (OnLayer('Top Overlay') or OnLayer('Bottom Overlay')))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=0.508mm) (InDifferentialPairClass('DIFF100B'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=0.508mm) (InDifferentialPairClass('DIFF100A'))
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
+Rule Violations :0
+
+
+Violations Detected : 3
+Waived Violations : 0
+Time Elapsed        : 00:00:02

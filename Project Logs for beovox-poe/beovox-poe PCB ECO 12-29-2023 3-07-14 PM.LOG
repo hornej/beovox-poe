@@ -1,0 +1,21 @@
+Added Component: Designator=C5(CAP_TH_5_10X16)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "LCSC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.lcsc.com/product-detail/Aluminum-Electrolytic-Capacitors-Leaded_KNSCHA-01EC4294SHC1000UF25V_C503217.html"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KNSCHA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "01EC4294SHC1000UF25V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "LCSC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number"; Value = "C503217"; VariantName = "[No Variations]"
+Added Component: Designator=C6(CAP_TH_5_10X16)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "LCSC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.lcsc.com/product-detail/Aluminum-Electrolytic-Capacitors-Leaded_KNSCHA-01EC4294SHC1000UF25V_C503217.html"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "KNSCHA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "01EC4294SHC1000UF25V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "LCSC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number"; Value = "C503217"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=PSE_OUT Pin=C5-1
+Added Pin To Net: NetName=NetU1_11 Pin=C5-2
+Added Pin To Net: NetName=NetU1_11 Pin=C6-1
+Added Pin To Net: NetName=GND Pin=C6-2
+Change Net Name : Old Net Name=NetU1_11 New Net Name=NetC5_2
+Added Member To Class: ClassName=beovox-poe Member=Component C5 1000uF 25V
+Added Member To Class: ClassName=beovox-poe Member=Component C6 1000uF 25V

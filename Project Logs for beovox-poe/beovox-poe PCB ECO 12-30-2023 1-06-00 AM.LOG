@@ -1,0 +1,10 @@
+Added Component: Designator=C19(CAP_TH_3.5_8_12)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "LCSC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.lcsc.com/product-detail/Aluminum-Electrolytic-Capacitors-Leaded_AISHI-Aihua-Group-ERS1KM470F12OT_C106688.html"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "AISHI(Aihua Group)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "ERS1KM470F12OT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "LCSC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number"; Value = "C106688"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C19-N
+Added Pin To Net: NetName=+21V Pin=C19-P
+Added Member To Class: ClassName=beovox-poe Member=Component C19 47uF / 100V
