@@ -1,3 +1,0 @@
-Added Component: Designator=TP11(Test_Point)
-Added Pin To Net: NetName=VOUT1 Pin=TP11-1
-Added Member To Class: ClassName=beovox-poe Member=Component TP11 TP

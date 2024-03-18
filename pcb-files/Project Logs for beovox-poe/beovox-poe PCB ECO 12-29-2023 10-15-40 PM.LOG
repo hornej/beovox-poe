@@ -1,0 +1,27 @@
+Added Component: Designator=TP1(Test_Point)
+Added Component: Designator=TP2(Test_Point)
+Added Component: Designator=TP3(Test_Point)
+Added Component: Designator=TP4(Test_Point)
+Added Component: Designator=TP5(Test_Point)
+Added Component: Designator=TP6(Test_Point)
+Added Component: Designator=TP7(Test_Point)
+Added Component: Designator=TP8(Test_Point)
+Added Pin To Net: NetName=PSE_OUT Pin=TP1-1
+Added Pin To Net: NetName=NetR5_2 Pin=TP2-1
+Added Pin To Net: NetName=NetR8_2 Pin=TP3-1
+Added Pin To Net: NetName=LINK_LED Pin=TP4-1
+Added Pin To Net: NetName=NetR6_2 Pin=TP5-1
+Added Pin To Net: NetName=+21V Pin=TP6-1
+Added Pin To Net: NetName=GND Pin=TP7-1
+Added Pin To Net: NetName=BARREL_IN Pin=TP8-1
+Change Net Name : Old Net Name=NetU1_3 New Net Name=Type2-Det
+Change Net Name : Old Net Name=NetU1_4 New Net Name=Type3-Det
+Change Net Name : Old Net Name=NetU1_5 New Net Name=Type4-Det
+Added Member To Class: ClassName=beovox-poe Member=Component TP1 TP
+Added Member To Class: ClassName=beovox-poe Member=Component TP2 TP
+Added Member To Class: ClassName=beovox-poe Member=Component TP3 TP
+Added Member To Class: ClassName=beovox-poe Member=Component TP4 TP
+Added Member To Class: ClassName=beovox-poe Member=Component TP5 TP
+Added Member To Class: ClassName=beovox-poe Member=Component TP6 TP
+Added Member To Class: ClassName=beovox-poe Member=Component TP7 TP
+Added Member To Class: ClassName=beovox-poe Member=Component TP8 TP

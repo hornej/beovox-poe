@@ -1,0 +1,44 @@
+Change Component DesignItemId : Designator=MP1 Old DesignItemId=SMTSOM330STR New DesignItemId=SMTSOM380BTR
+Change Component DesignItemId : Designator=MP2 Old DesignItemId=SMTSOM330STR New DesignItemId=SMTSOM380BTR
+Change Component DesignItemId : Designator=MP3 Old DesignItemId=SMTSOM330STR New DesignItemId=SMTSOM380BTR
+Change Component DesignItemId : Designator=MP4 Old DesignItemId=SMTSOM330STR New DesignItemId=SMTSOM380BTR
+Change Component Footprint: Designator=MP1 Old Footprint=SMTSOM330STR New Footprint=SMTSOM380
+Change Component Footprint: Designator=MP2 Old Footprint=SMTSOM330STR New Footprint=SMTSOM380
+Change Component Footprint: Designator=MP3 Old Footprint=SMTSOM330STR New Footprint=SMTSOM380
+Change Component Footprint: Designator=MP4 Old Footprint=SMTSOM330STR New Footprint=SMTSOM380
+Change Component Comment : Designator=MP1 Old Comment=SMTSOM330STR New Comment=SMTSOM380BTR
+Change Component Comment : Designator=MP2 Old Comment=SMTSOM330STR New Comment=SMTSOM380BTR
+Change Component Comment : Designator=MP3 Old Comment=SMTSOM330STR New Comment=SMTSOM380BTR
+Change Component Comment : Designator=MP4 Old Comment=SMTSOM330STR New Comment=SMTSOM380BTR
+Change Component Description : Designator=MP1 Old Description=M3 Round Nut Nuts ROHS 3mm height New Description=M3 Round Nut 8mm height
+Change Component Description : Designator=MP2 Old Description=M3 Round Nut Nuts ROHS 3mm height New Description=M3 Round Nut 8mm height
+Change Component Description : Designator=MP3 Old Description=M3 Round Nut Nuts ROHS 3mm height New Description=M3 Round Nut 8mm height
+Change Component Description : Designator=MP4 Old Description=M3 Round Nut Nuts ROHS 3mm height New Description=M3 Round Nut 8mm height
+Change component parameters: Designator = "MP1" ("MP1"); Footprint = "SMTSOM330STR"; UniqueID = "\FCHGROZP" ("\FCHGROZP")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "LCSC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.lcsc.com/product-detail/Other-nuts_YIYUAN-SMTSOM380BTR_C5301772.html"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "YIYUAN"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "SMTSOM380BTR"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier"; Value = "LCSC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number"; Value = "C5301772"; VariantName = "[No Variations]"
+Change component parameters: Designator = "MP2" ("MP2"); Footprint = "SMTSOM330STR"; UniqueID = "\DNWIYGAI" ("\DNWIYGAI")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "LCSC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.lcsc.com/product-detail/Other-nuts_YIYUAN-SMTSOM380BTR_C5301772.html"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "YIYUAN"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "SMTSOM380BTR"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier"; Value = "LCSC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number"; Value = "C5301772"; VariantName = "[No Variations]"
+Change component parameters: Designator = "MP3" ("MP3"); Footprint = "SMTSOM330STR"; UniqueID = "\VMOACXNJ" ("\VMOACXNJ")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "LCSC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.lcsc.com/product-detail/Other-nuts_YIYUAN-SMTSOM380BTR_C5301772.html"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "YIYUAN"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "SMTSOM380BTR"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier"; Value = "LCSC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number"; Value = "C5301772"; VariantName = "[No Variations]"
+Change component parameters: Designator = "MP4" ("MP4"); Footprint = "SMTSOM330STR"; UniqueID = "\ZKENZYWH" ("\ZKENZYWH")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "LCSC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.lcsc.com/product-detail/Other-nuts_YIYUAN-SMTSOM380BTR_C5301772.html"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "YIYUAN"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "SMTSOM380BTR"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier"; Value = "LCSC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number"; Value = "C5301772"; VariantName = "[No Variations]"

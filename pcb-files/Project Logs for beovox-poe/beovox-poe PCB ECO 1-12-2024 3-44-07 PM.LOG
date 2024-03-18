@@ -1,0 +1,4 @@
+Change Net Name : Old Net Name=NetCONN1_1 New Net Name=TxRxA_P
+Change Net Name : Old Net Name=NetCONN1_2 New Net Name=TxRxA_N
+Added Differential Pair: Name=TxRxA
+Added Class: Name=DIFF100

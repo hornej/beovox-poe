@@ -1,0 +1,9 @@
+Change Component Footprint: Designator=CONN2 Old Footprint=R-RJ45R08P-A004 New Footprint=CONN_RJ45_R-RJ45S08P-C000
+Change Component Comment : Designator=CONN2 Old Comment=R-RJ45R08P-A004 New Comment=R-RJ45S08P-C000
+Change component parameters: Designator = "CONN2" ("CONN2"); Footprint = "R-RJ45R08P-A004"; UniqueID = "\HFZXLZYL" ("\HFZXLZYL")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "LCSC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.lcsc.com/product-detail/Ethernet-Connectors-Modular-Connectors-RJ45-RJ11_Ckmtw-Shenzhen-Cankemeng-R-RJ45S08P-C000_C386764.html"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Ckmtw(Shenzhen Cankemeng)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "R-RJ45S08P-C000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier"; Value = "LCSC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number"; Value = "C386764"; VariantName = "[No Variations]"
