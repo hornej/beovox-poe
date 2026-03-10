@@ -1,5 +1,0 @@
-Removed Pin From Net: NetName=VOUT2 Pin=Q1-
-Removed Pin From Net: NetName=VCC Pin=Q1-
-Removed Pin From Net: NetName=BARREL_IN Pin=Q2-
-Removed Pin From Net: NetName=VCC Pin=Q2-
-Added Net: Name=THERM_ISO

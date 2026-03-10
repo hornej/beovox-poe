@@ -1,6 +1,0 @@
-Removed Pin From Net: NetName=VOUT2 Pin=Q1-
-Removed Pin From Net: NetName=VCC Pin=Q1-
-Removed Pin From Net: NetName=BARREL_IN Pin=Q2-
-Removed Pin From Net: NetName=VCC Pin=Q2-
-Change Component Footprint: Designator=J3 Old Footprint=SOLDER_JUMPER_3 New Footprint=SOLDER_JUMPER_3 large
-Change Component Footprint: Designator=J4 Old Footprint=SOLDER_JUMPER_3 New Footprint=SOLDER_JUMPER_3 large

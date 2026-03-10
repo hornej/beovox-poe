@@ -1,0 +1,15 @@
+# macOS
+.DS_Store
+
+# Altium local history, previews, and generated logs
+pcb-files/History/
+pcb-files/Project Logs for beovox-poe/
+pcb-files/__Previews/
+
+# Generated HTML exports that do not need to be versioned
+pcb-files/beovox-poe.html
+pcb-files/beovox-poe.PcbDoc.htm
+pcb-files/Project Outputs for beovox-poe/Design Rule Check - beovox-poe.html
+
+# Common sync-conflict artifacts
+*.sync-conflict-*

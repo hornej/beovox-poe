@@ -1,6 +1,0 @@
-Added Class: Name=DIFF100A
-Change Class Name : Old Net Name=DIFF100 New Net Name=DIFF100B
-Removed Member From Class: ClassName=DIFF100B Member=TxRxA
-Removed Member From Class: ClassName=DIFF100B Member=TxRxB
-Removed Member From Class: ClassName=DIFF100B Member=TxRxC
-Removed Member From Class: ClassName=DIFF100B Member=TxRxD
