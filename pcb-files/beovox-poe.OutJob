@@ -17,7 +17,7 @@ RevisionNamingSchemeGUID=
 [OutputGroup1]
 Name=beovox-poe.OutJob
 Description=
-TargetOutputMedium=PDF
+TargetOutputMedium=Fab Drawing
 VariantName=assembly
 VariantScope=1
 CurrentConfigurationName=
@@ -27,7 +27,7 @@ OutputMedium1=Print Job
 OutputMedium1_Type=Printer
 OutputMedium1_Printer=
 OutputMedium1_PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputMedium2=PDF
+OutputMedium2=Schematic
 OutputMedium2_Type=Publish
 OutputMedium3=Folder Structure
 OutputMedium3_Type=GeneratedFiles
@@ -51,7 +51,7 @@ OutputName2=Schematic Prints
 OutputCategory2=Documentation
 OutputDocumentPath2=[Project Physical Documents]
 OutputVariantName2=
-OutputEnabled2=1
+OutputEnabled2=0
 OutputEnabled2_OutputMedium1=0
 OutputEnabled2_OutputMedium2=1
 OutputEnabled2_OutputMedium3=0
@@ -72,7 +72,7 @@ OutputEnabled3_OutputMedium3=4
 OutputEnabled3_OutputMedium4=0
 OutputDefault3=0
 Configuration3_Name1=OutputConfigurationParameter1
-Configuration3_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GenerateReports=True|GerberUnit=Imperial|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=True|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=50|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=5|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16973830~1,16973832~1,16973834~1,16777217~1,16777218~1,16777219~1,16842751~1,16973835~1,16973833~1,16973831~1,16908289~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False|DocumentPath=\\Mac\Home\Documents\pcb-design\altium\zero-projects\zero-node\zero-node.PcbDoc
+Configuration3_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GenerateReports=True|GerberUnit=Imperial|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=True|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=50|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=5|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16973830~1,16973832~1,16973834~1,16777217~1,16777218~1,16777219~1,16842751~1,16973835~1,16973833~1,16973831~1,16908289~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False|DocumentPath=C:\Users\joshh\Nextcloud\Documents\altium\projects\beovox-poe\pcb-files\beovox-poe.PcbDoc
 OutputType4=NC Drill
 OutputName4=NC Drill Files
 OutputCategory4=Fabrication
@@ -103,13 +103,13 @@ Configuration5_Item1=CaptionAsName
 Configuration5_Name2=General
 Configuration5_Item2=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=True|DatabasePriority=False|IncludePcbData=True|IncludeVaultData=True|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|TemplateVaultGuid=|TemplateItemGuid=|TemplateRevisionGuid=|BatchMode=0|FormWidth=2256|FormHeight=1178|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=USD|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=1|UseDirectApi=False|BomSetName=
 Configuration5_Name3=GroupOrder
-Configuration5_Item3=Comment=True|Footprint=True
+Configuration5_Item3=Manufacturer Part Number=True|Comment=True
 Configuration5_Name4=SortOrder
 Configuration5_Item4=Quantity=Up
 Configuration5_Name5=VisibleOrder
-Configuration5_Item5=Designator=120|Supplier Part Number=100|Supplier=100|Quantity=90|Comment=120|Manufacturer=153|Manufacturer Part Number=186|Footprint=146|Description=528|Case/Package=100
+Configuration5_Item5=Designator=120|Quantity=90|Supplier=119|Supplier Part Number=138|Manufacturer=153|Manufacturer Part Number=186|Comment=120|Footprint=146|Description=528|Case/Package=100
 Configuration5_Name6=VisibleOrder_Flat
-Configuration5_Item6=Designator=120|Supplier Part Number=100|Supplier=100|Quantity=90|Comment=120|Manufacturer=153|Manufacturer Part Number=186|Footprint=146|Description=528|Case/Package=100
+Configuration5_Item6=Designator=120|Quantity=90|Supplier=119|Supplier Part Number=138|Manufacturer=153|Manufacturer Part Number=186|Comment=120|Footprint=146|Description=528|Case/Package=100
 OutputType6=ExportSTEP
 OutputName6=Export STEP
 OutputCategory6=Export
@@ -141,7 +141,7 @@ OutputName8=Draftsman
 OutputCategory8=Documentation
 OutputDocumentPath8=beovox-poe.PCBDwf
 OutputVariantName8=
-OutputEnabled8=0
+OutputEnabled8=1
 OutputEnabled8_OutputMedium1=0
 OutputEnabled8_OutputMedium2=0
 OutputEnabled8_OutputMedium3=0

@@ -1,5 +1,15 @@
 # macOS
 .DS_Store
+._*
+
+# Local agent notes
+AGENTS.local.md
+tmp-cad-compare/
+
+# Local Fusion/Codex script artifacts
+CodexBuildPanelSubClean.py
+CodexBuildPanelSubClean.error.txt
+__pycache__/
 
 # Altium local history, previews, and generated logs
 pcb-files/History/
@@ -11,5 +21,10 @@ pcb-files/beovox-poe.html
 pcb-files/beovox-poe.PcbDoc.htm
 pcb-files/Project Outputs for beovox-poe/Design Rule Check - beovox-poe.html
 
+ignore
+
 # Common sync-conflict artifacts
 *.sync-conflict-*
+*.drawio.bkp
+images/.$*
+.tmp-settings-audit/

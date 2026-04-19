@@ -1,0 +1,29 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: beovox-poe.PcbDoc   4/15/2026  1:50:37 PM
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : beovox-poe-RoundHoles.TXT
+ASCII SlotHoles File : beovox-poe-SlotHoles.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      12mil (0.3mm)                                             Round             442       PTH        56.32inch (1430.63mm)
+T2      28mil (0.711mm)                                           Round             10        PTH        5.57inch (141.38mm)
+T3      30mil (0.762mm)                                           Round             6         PTH        0.50inch (12.70mm)
+T4      32mil (0.8mm)                                             Slot              3         PTH        1.11inch (28.15mm)
+T5      34mil (0.864mm)                                           Round             4         PTH        0.64inch (16.20mm)
+T6      35mil (0.89mm)                                            Round             12        PTH        1.39inch (35.21mm)
+T7      35mil (0.9mm)                                             Round             10        PTH        2.15inch (54.61mm)
+T8      43mil (1.1mm)                                             Round             33        PTH        11.16inch (283.50mm)
+T9      47mil (1.2mm)                                             Round             4         PTH        0.32inch (8.10mm)
+T10     51mil (1.3mm)                                             Slot              2         PTH        1.28inch (32.41mm)
+T11     71mil (1.8mm)                                             Round             2         PTH        0.64inch (16.26mm)
+T12     118mil (3mm)                                              Round             4         PTH        4.93inch (125.10mm)
+T13     166mil (4.22mm)                                           Round             4         PTH        8.46inch (215.00mm)
+T14     126mil (3.2mm)                                            Round             2         NPTH       0.45inch (11.43mm)
+T15     128mil (3.25mm)                                           Round             2         NPTH       0.50inch (12.70mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              540
+
+Total Processing Time (hh:mm:ss) : 00:00:00
