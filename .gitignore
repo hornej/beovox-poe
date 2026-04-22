@@ -4,6 +4,8 @@
 
 # Local agent notes
 AGENTS.local.md
+.githooks/
+scripts/
 tmp-cad-compare/
 
 # Local Fusion/Codex script artifacts
