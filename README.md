@@ -128,7 +128,8 @@ For full output power you will need a IEEE 802.3bt / PoE++ source. I've also tes
 - Solder the AG5800 module
 - Solder the standoffs on the bottom
 - Solder the 24V jumper on the bottom
-	- ![24V jumper location](images/24v-jump.png)
+
+  <img src="images/24v-jump.png" alt="24V jumper location" width="320" />
 ### Jumper Headers
 - Leave J6 and J7 jumpers uninstalled
 - If you are using a PoE switch for data but want to power the speakers with a DC power supply via the barrel jack then you can install a jumper on J2. When the barrel jack is present, the AG5800 POE-PD signature will be set to invalid. This will prevent the AG5800 from requesting power and will save on idle power dissipation. 
@@ -137,7 +138,8 @@ For full output power you will need a IEEE 802.3bt / PoE++ source. I've also tes
 - (Optional) Raspberry Pi Link Status
 	- If you want to see the Ethernet link status on the panel RJ45 jack then you need to connect to these pins on the RPi. Red is for 3.3V and Green is the LED. 
 	- The PCB has a 2 pin push in terminal to attach this wires to. You will need to tin the wires before insertion into the terminal. 
-![Raspberry Pi link status wiring](images/rpi-link-wiring.png)
+
+  <img src="images/rpi-link-wiring.png" alt="Raspberry Pi link status wiring" width="320" />
 
 ## Panel Mount
 *The current panel design only supports the CX100 speakers as the geometry of the back panel on the CX50 is slightly different. I plan to update later with a CX50 panel.*
@@ -155,7 +157,9 @@ The safest way to make the speaker cutout is to print the panel first and use th
 1. Fasten the printed mounts to the PCB with the flat-head screws.
 ## Wiring
 The Amplifier first best in the top section at a downward angle with the panel being at the bottom. 
-![Internal assembly](images/internals.png)
+<div>
+  <img src="images/internals.png" alt="Internal assembly" width="520" />
+</div>
 *CX100 wiring (no sub)*
 ### CX50
 [HiFiBerry CX50 Installation Guide](https://github.com/bang-olufsen/create/blob/master/Guides/Upcycle%20CX50%20Stereo.pdf)
@@ -166,7 +170,11 @@ The Amplifier first best in the top section at a downward angle with the panel b
 ### CX100 with switchable subwoofer
 ![CX100 with switchable subwoofer wiring diagram](images/beovox-poe-wiring-cx100-sub.drawio.svg)
 The subwoofer wiring is a little tricky. I underestimated how many wires I would need to reroute the standard stereo wiring to the subwoofer. I used two 4PDT [switches](https://www.digikey.com/en/products/detail/nkk-switches/M2042E2S1W01/1049104). 
-![Subwoofer switch panel](images/sub-panel.png)
+
+<div>
+  <img src="images/sub-panel.png" alt="Subwoofer switch panel" width="500" />
+</div>
+
 ## Software Setup
 Do this before you put it all back together!
 - Download latest 64bit release of [HiFiBerryOS](https://github.com/hifiberry/hifiberry-os)
