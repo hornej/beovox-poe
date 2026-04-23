@@ -127,8 +127,7 @@ For full output power you will need a IEEE 802.3bt / PoE++ source. I've also tes
 ### Soldering
 - Solder the AG5800 module
 - Solder the standoffs on the bottom
-- Solder the 24V jumper on the bottom
-
+- Solder the 24V jumper on the bottom<br />
   <img src="images/24v-jump.png" alt="24V jumper location" width="320" />
 ### Jumper Headers
 - Leave J6 and J7 jumpers uninstalled
@@ -156,11 +155,12 @@ The safest way to make the speaker cutout is to print the panel first and use th
 ### Panel Assembly
 1. Fasten the printed mounts to the PCB with the flat-head screws.
 ## Wiring
-The Amplifier first best in the top section at a downward angle with the panel being at the bottom. 
-<div>
-  <img src="images/internals.png" alt="Internal assembly" width="520" />
-</div>
+The Amplifier fits best in the top section at a downward angle with the PoE PCB being at the bottom. 
+
+<img src="images/internals.png" alt="Internal assembly" width="520" />
+
 *CX100 wiring (no sub)*
+
 ### CX50
 [HiFiBerry CX50 Installation Guide](https://github.com/bang-olufsen/create/blob/master/Guides/Upcycle%20CX50%20Stereo.pdf)
 ![CX50 wiring diagram](images/beovox-poe-wiring-cx50.drawio.svg)
@@ -171,9 +171,7 @@ The Amplifier first best in the top section at a downward angle with the panel b
 ![CX100 with switchable subwoofer wiring diagram](images/beovox-poe-wiring-cx100-sub.drawio.svg)
 The subwoofer wiring is a little tricky. I underestimated how many wires I would need to reroute the standard stereo wiring to the subwoofer. I used two 4PDT [switches](https://www.digikey.com/en/products/detail/nkk-switches/M2042E2S1W01/1049104). 
 
-<div>
-  <img src="images/sub-panel.png" alt="Subwoofer switch panel" width="500" />
-</div>
+<img src="images/sub-panel.png" alt="Subwoofer switch panel" width="400" />
 
 ## Software Setup
 Do this before you put it all back together!
