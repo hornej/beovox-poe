@@ -1,18 +1,18 @@
 Protel Design System Design Rule Check
-PCB File : C:\Users\joshh\Nextcloud\Documents\altium\projects\beovox-poe\pcb-files\beovox-poe.PcbDoc
-Date     : 3/18/2024
-Time     : 10:59:06 AM
+PCB File : pcb-files\beovox-poe.PcbDoc
+Date     : 5/25/2026
+Time     : 4:51:11 PM
 
-Processing Rule : Clearance Constraint (Gap=6mil) (InDifferentialPairClass('DIFF100A') or InDifferentialPairClass('DIFF100B')),(InDifferentialPairClass('DIFF100A') or InDifferentialPairClass('DIFF100B'))
+Processing Rule : Clearance Constraint (Gap=0.16mm) (HasFootprint('SMTSOM380_PlatedScrew')),(All)
 Rule Violations :0
 
-Processing Rule : Clearance Constraint (Gap=7.874mil) (InNetClass('HV') or InNet('BARREL_IN')),(All)
+Processing Rule : Clearance Constraint (Gap=0.152mm) (InDifferentialPairClass('DIFF100A') or InDifferentialPairClass('DIFF100B')),(InDifferentialPairClass('DIFF100A') or InDifferentialPairClass('DIFF100B'))
 Rule Violations :0
 
-Processing Rule : Clearance Constraint (Gap=5mil) (HasFootprint('SMTSOM380_PlatedScrew')),(All)
+Processing Rule : Clearance Constraint (Gap=0.2mm) (InNetClass('HV') or InNet('BARREL_IN') or HasFootprint('SMTSOM380_PlatedScrew')),(All)
 Rule Violations :0
 
-Processing Rule : Clearance Constraint (Gap=6mil) (All),(All)
+Processing Rule : Clearance Constraint (Gap=0.16mm) (All),(All)
 Rule Violations :0
 
 Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
@@ -24,43 +24,67 @@ Rule Violations :0
 Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
 Rule Violations :0
 
-Processing Rule : Width Constraint (Min=6mil) (Max=59.055mil) (Preferred=10mil) (All)
+Processing Rule : Width Constraint (Min=0.152mm) (Max=1.5mm) (Preferred=0.254mm) (All)
 Rule Violations :0
 
-Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)
+Processing Rule : Routing Layers(All)
 Rule Violations :0
 
-Processing Rule : Hole Size Constraint (Min=7.874mil) (Max=248.031mil) (All)
+Processing Rule : Routing Via (MinHoleWidth=0.3mm) (MaxHoleWidth=0.711mm) (PreferredHoleWidth=0.3mm) (MinWidth=0.6mm) (MaxWidth=1.27mm) (PreferedWidth=0.6mm) (All)
 Rule Violations :0
 
-Processing Rule : Hole To Hole Clearance (Gap=10mil) (All),(All)
+Processing Rule : Differential Pairs Uncoupled Length using the Gap Constraints (Min=0.127mm) (Max=0.19mm) (Prefered=0.19mm)  and Width Constraints (Min=0.206mm) (Max=0.381mm) (Prefered=0.381mm) (InDifferentialPairClass('All Differential Pairs'))
 Rule Violations :0
 
-Processing Rule : Minimum Solder Mask Sliver (Gap=3mil) (not (HasFootprint('CONN-SMD_KH-WB205-F20M-03L'))),(All)
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
 Rule Violations :0
 
-Processing Rule : Silk To Solder Mask (Clearance=1.968mil) (IsPad),(All)
+Processing Rule : Hole Size Constraint (Min=0.2mm) (Max=6.3mm) (All)
 Rule Violations :0
 
-Processing Rule : Silk to Silk (Clearance=1.968mil) (All),(All)
+Processing Rule : Pads and Vias to follow the Drill pairs settings
 Rule Violations :0
 
-Processing Rule : Net Antennae (Tolerance=0mil) (All)
+Processing Rule : Hole To Hole Clearance (Gap=0.254mm) (All),(All)
 Rule Violations :0
 
-Processing Rule : Board Clearance Constraint (Gap=0mil) (not (OnLayer('Top Overlay') or OnLayer('Bottom Overlay')))
+Processing Rule : Minimum Solder Mask Sliver (Gap=0.076mm) (not (HasFootprint('CONN-SMD_KH-WB205-F20M-03L'))),(All)
 Rule Violations :0
 
-Processing Rule : Matched Lengths(Tolerance=20mil) (InDifferentialPairClass('DIFF100A'))
+Processing Rule : Silk To Solder Mask (Clearance=0.05mm) (IsPad),(All)
 Rule Violations :0
 
-Processing Rule : Matched Lengths(Tolerance=20mil) (InDifferentialPairClass('DIFF100B'))
+Processing Rule : Silk to Silk (Clearance=0.05mm) (All),(All)
 Rule Violations :0
 
-Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)
+Processing Rule : Net Antennae (Tolerance=0mm) (All)
+Rule Violations :0
+
+Processing Rule : Board Clearance Constraint (Gap=0mm) (not (OnLayer('Top Overlay') or OnLayer('Bottom Overlay')))
+Rule Violations :0
+
+Processing Rule : Length Constraint (Min=0mm) (Max=50mm) (InDifferentialPairClass('DIFF100A') or InDifferentialPairClass('DIFF100B'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=0.25mm) (InDifferentialPairClass('DIFF100A'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=0.25mm) (InDifferentialPairClass('DIFF100B'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=2mm) (InDifferentialPairClass('DIFF100B'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=2mm) (InDifferentialPairClass('DIFF100A'))
+Rule Violations :0
+
+Processing Rule : Component Clearance Constraint ( Horizontal Gap = 0.254mm, Vertical Gap = 0.254mm ) (All),(All) 
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
 Rule Violations :0
 
 
 Violations Detected : 0
 Waived Violations : 0
-Time Elapsed        : 00:00:01
+Time Elapsed        : 00:00:02

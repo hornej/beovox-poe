@@ -26,6 +26,7 @@ pcb-files/Project Outputs for beovox-poe/Design Rule Check - beovox-poe.html
 ignore
 
 # Common sync-conflict artifacts
+desktop.ini
 *.sync-conflict-*
 *.drawio.bkp
 images/.$*

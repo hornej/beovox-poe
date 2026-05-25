@@ -2,6 +2,43 @@
 FileName = beovox-poe.GBR
 AutoAperture = True
 *************************************************************
+Generating : Board Outline
+      File : beovox-poe.GM1
+
+    Adding Layer      : Board Outline
+
+
+Used DCodes :
+    D10
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : beovox-poe.GBO
+
+    Adding Layer      : Bottom Overlay
+
+
+Used DCodes :
+    D10
+    D13
+*************************************************************
+
+*************************************************************
+Generating : Bottom Paste
+      File : beovox-poe.GBP
+
+    Adding Layer      : Bottom Paste
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
 Generating : Bottom Solder
       File : beovox-poe.GBS
 
@@ -13,9 +50,15 @@ Generating : Bottom Solder
 
 
 Used DCodes :
+    D55
+    D56
+    D57
+    D58
+    D59
+    D60
+    D61
     D62
     D63
-    D64
     D65
     D66
     D67
@@ -25,14 +68,8 @@ Used DCodes :
     D71
     D72
     D73
-    D74
-    D75
-    D77
-    D78
-    D79
-    D80
-    D108
-    D109
+    D105
+    D106
 *************************************************************
 
 *************************************************************
@@ -47,6 +84,9 @@ Generating : Top Solder
 
 
 Used DCodes :
+    D24
+    D34
+    D35
     D36
     D37
     D38
@@ -85,13 +125,6 @@ Used DCodes :
     D71
     D72
     D73
-    D74
-    D75
-    D76
-    D77
-    D78
-    D79
-    D80
 *************************************************************
 
 *************************************************************
@@ -123,8 +156,6 @@ Used DCodes :
     D31
     D32
     D33
-    D34
-    D35
 *************************************************************
 
 *************************************************************
@@ -145,8 +176,68 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Layer 2
+Generating : Bottom Layer
+      File : beovox-poe.GBL
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D13
+    D16
+    D78
+    D80
+    D81
+    D85
+    D86
+    D87
+    D88
+    D89
+    D90
+    D91
+    D92
+    D94
+    D95
+    D96
+    D97
+    D98
+    D99
+    D100
+    D101
+    D102
+    D103
+    D104
+*************************************************************
+
+*************************************************************
+Generating : Layer 3
       File : beovox-poe.G2
+
+    Adding Layer      : Layer 3
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D85
+    D89
+    D90
+    D91
+    D94
+    D95
+    D96
+    D97
+    D100
+    D101
+    D102
+*************************************************************
+
+*************************************************************
+Generating : Layer 2
+      File : beovox-poe.G1
 
     Adding Layer      : Layer 2
 
@@ -154,50 +245,18 @@ Generating : Layer 2
 
 
 Used DCodes :
-    D67
-    D72
+    D85
+    D89
     D90
     D91
-    D92
     D94
     D95
     D96
     D97
-    D98
     D99
     D100
+    D101
     D102
-    D103
-    D104
-    D105
-*************************************************************
-
-*************************************************************
-Generating : Layer 1
-      File : beovox-poe.G1
-
-    Adding Layer      : Layer 1
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D67
-    D72
-    D90
-    D91
-    D92
-    D94
-    D95
-    D96
-    D97
-    D98
-    D99
-    D100
-    D102
-    D103
-    D104
-    D105
 *************************************************************
 
 *************************************************************
@@ -210,8 +269,9 @@ Generating : Top Layer
 
 
 Used DCodes :
+    D10
     D13
-    D15
+    D16
     D17
     D18
     D19
@@ -229,12 +289,14 @@ Used DCodes :
     D31
     D32
     D33
-    D34
-    D35
-    D37
-    D44
-    D67
-    D72
+    D53
+    D74
+    D75
+    D76
+    D77
+    D78
+    D79
+    D80
     D81
     D82
     D83
@@ -257,80 +319,5 @@ Used DCodes :
     D100
     D101
     D102
-    D103
-    D104
-*************************************************************
-
-*************************************************************
-Generating : Board Outline
-      File : beovox-poe.GM1
-
-    Adding Layer      : Board Outline
-
-
-Used DCodes :
-    D13
-*************************************************************
-
-*************************************************************
-Generating : Bottom Overlay
-      File : beovox-poe.GBO
-
-    Adding Layer      : Bottom Overlay
-
-
-Used DCodes :
-    D10
-    D13
-    D16
-*************************************************************
-
-*************************************************************
-Generating : Bottom Paste
-      File : beovox-poe.GBP
-
-    Adding Layer      : Bottom Paste
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D106
-*************************************************************
-
-*************************************************************
-Generating : Bottom Layer
-      File : beovox-poe.GBL
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D13
-    D15
-    D67
-    D72
-    D83
-    D87
-    D90
-    D91
-    D92
-    D93
-    D94
-    D95
-    D96
-    D97
-    D98
-    D99
-    D100
-    D102
-    D103
-    D104
-    D106
-    D107
 *************************************************************
 

@@ -17,7 +17,7 @@ RevisionNamingSchemeGUID=
 [OutputGroup1]
 Name=beovox-poe.OutJob
 Description=
-TargetOutputMedium=Fab Drawing
+TargetOutputMedium=Schematic
 VariantName=assembly
 VariantScope=1
 CurrentConfigurationName=
@@ -41,7 +41,7 @@ OutputVariantName1=
 OutputEnabled1=0
 OutputEnabled1_OutputMedium1=0
 OutputEnabled1_OutputMedium2=0
-OutputEnabled1_OutputMedium3=5
+OutputEnabled1_OutputMedium3=4
 OutputEnabled1_OutputMedium4=0
 OutputDefault1=0
 Configuration1_Name1=OutputConfigurationParameter1
@@ -51,7 +51,7 @@ OutputName2=Schematic Prints
 OutputCategory2=Documentation
 OutputDocumentPath2=[Project Physical Documents]
 OutputVariantName2=
-OutputEnabled2=0
+OutputEnabled2=1
 OutputEnabled2_OutputMedium1=0
 OutputEnabled2_OutputMedium2=1
 OutputEnabled2_OutputMedium3=0
@@ -68,11 +68,11 @@ OutputVariantName3=
 OutputEnabled3=0
 OutputEnabled3_OutputMedium1=0
 OutputEnabled3_OutputMedium2=0
-OutputEnabled3_OutputMedium3=4
+OutputEnabled3_OutputMedium3=3
 OutputEnabled3_OutputMedium4=0
 OutputDefault3=0
 Configuration3_Name1=OutputConfigurationParameter1
-Configuration3_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GenerateReports=True|GerberUnit=Imperial|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=True|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=50|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=5|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16973830~1,16973832~1,16973834~1,16777217~1,16777218~1,16777219~1,16842751~1,16973835~1,16973833~1,16973831~1,16908289~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False|DocumentPath=C:\Users\joshh\Nextcloud\Documents\altium\projects\beovox-poe\pcb-files\beovox-poe.PcbDoc
+Configuration3_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GenerateReports=True|GerberUnit=Imperial|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=True|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=50|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=5|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16973830~1,16973832~1,16973834~1,16777217~1,16777218~1,16777219~1,16842751~1,16973835~1,16973833~1,16973831~1,16908289~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False|DocumentPath=beovox-poe.PcbDoc
 OutputType4=NC Drill
 OutputName4=NC Drill Files
 OutputCategory4=Fabrication
@@ -81,7 +81,7 @@ OutputVariantName4=
 OutputEnabled4=0
 OutputEnabled4_OutputMedium1=0
 OutputEnabled4_OutputMedium2=0
-OutputEnabled4_OutputMedium3=3
+OutputEnabled4_OutputMedium3=2
 OutputEnabled4_OutputMedium4=0
 OutputDefault4=0
 Configuration4_Name1=OutputConfigurationParameter1
@@ -94,7 +94,7 @@ OutputVariantName5=
 OutputEnabled5=0
 OutputEnabled5_OutputMedium1=0
 OutputEnabled5_OutputMedium2=0
-OutputEnabled5_OutputMedium3=2
+OutputEnabled5_OutputMedium3=1
 OutputEnabled5_OutputMedium4=0
 OutputDefault5=0
 PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
@@ -105,7 +105,7 @@ Configuration5_Item2=OpenExported=False|AddToProject=False|ReportBOMViolationsIn
 Configuration5_Name3=GroupOrder
 Configuration5_Item3=Manufacturer Part Number=True|Comment=True
 Configuration5_Name4=SortOrder
-Configuration5_Item4=Quantity=Up
+Configuration5_Item4=Designator=Up
 Configuration5_Name5=VisibleOrder
 Configuration5_Item5=Designator=120|Quantity=90|Supplier=119|Supplier Part Number=138|Manufacturer=153|Manufacturer Part Number=186|Comment=120|Footprint=146|Description=528|Case/Package=100
 Configuration5_Name6=VisibleOrder_Flat
@@ -118,7 +118,7 @@ OutputVariantName6=
 OutputEnabled6=0
 OutputEnabled6_OutputMedium1=0
 OutputEnabled6_OutputMedium2=0
-OutputEnabled6_OutputMedium3=1
+OutputEnabled6_OutputMedium3=0
 OutputEnabled6_OutputMedium4=0
 OutputDefault6=0
 Configuration6_Name1=OutputConfigurationParameter1
@@ -135,13 +135,13 @@ OutputEnabled7_OutputMedium3=0
 OutputEnabled7_OutputMedium4=0
 OutputDefault7=0
 Configuration7_Name1=OutputConfigurationParameter1
-Configuration7_Item1=Compression_None=True|Compression_tar_tgz=True|Compression_zip=True|ExportPositivePlaneLayers=False|GenerateDRCRulesFile=False|IncludeUnconnectedMidLayerPads=False|MergeNetTieNets=False|ObjsInsideBoardOutlineOnly=False|ODBProfileLayer=-1000|ODBProfileLayerV7=-1|PlotBackDrillingPairs=False|PlotBlindViasPairs=False|PlotBottomLayerPlot=True|PlotBottomOverlayPlot=True|PlotBottomPastePlot=True|PlotBottomSolderPlot=True|PlotCounterHolesPairs=False|PlotDrillDrawingPair0_DrillType=Regular|PlotDrillDrawingPair0_HighLayer=Bottom Layer|PlotDrillDrawingPair0_LowLayer=Top Layer|PlotDrillDrawingPair0_Plot=True|PlotDrillDrawingPairs=False|PlotDrillGuidePair0_DrillType=Regular|PlotDrillGuidePair0_HighLayer=Bottom Layer|PlotDrillGuidePair0_LowLayer=Top Layer|PlotDrillGuidePair0_Plot=True|PlotDrillGuidePairs=False|PlotInternalPlane10Plot=False|PlotInternalPlane11Plot=False|PlotInternalPlane12Plot=False|PlotInternalPlane13Plot=False|PlotInternalPlane14Plot=False|PlotInternalPlane15Plot=False|PlotInternalPlane16Plot=False|PlotInternalPlane1Plot=False|PlotInternalPlane2Plot=False|PlotInternalPlane3Plot=False|PlotInternalPlane4Plot=False|PlotInternalPlane5Plot=False|PlotInternalPlane6Plot=False|PlotInternalPlane7Plot=False|PlotInternalPlane8Plot=False|PlotInternalPlane9Plot=False|PlotKeepOutLayerPlot=True|PlotMechanical10Plot=False|PlotMechanical11Plot=False|PlotMechanical12Plot=False|PlotMechanical13Plot=False|PlotMechanical14Plot=False|PlotMechanical15Plot=False|PlotMechanical16Plot=False|PlotMechanical1Plot=False|PlotMechanical2Plot=False|PlotMechanical3Plot=False|PlotMechanical4Plot=False|PlotMechanical5Plot=False|PlotMechanical6Plot=False|PlotMechanical7Plot=False|PlotMechanical8Plot=False|PlotMechanical9Plot=False|PlotMicroViasPairs=False|PlotMidLayer10Plot=False|PlotMidLayer11Plot=False|PlotMidLayer12Plot=False|PlotMidLayer13Plot=False|PlotMidLayer14Plot=False|PlotMidLayer15Plot=False|PlotMidLayer16Plot=False|PlotMidLayer17Plot=False|PlotMidLayer18Plot=False|PlotMidLayer19Plot=False|PlotMidLayer1Plot=True|PlotMidLayer20Plot=False|PlotMidLayer21Plot=False|PlotMidLayer22Plot=False|PlotMidLayer23Plot=False|PlotMidLayer24Plot=False|PlotMidLayer25Plot=False|PlotMidLayer26Plot=False|PlotMidLayer27Plot=False|PlotMidLayer28Plot=False|PlotMidLayer29Plot=False|PlotMidLayer2Plot=True|PlotMidLayer30Plot=False|PlotMidLayer3Plot=False|PlotMidLayer4Plot=False|PlotMidLayer5Plot=False|PlotMidLayer6Plot=False|PlotMidLayer7Plot=False|PlotMidLayer8Plot=False|PlotMidLayer9Plot=False|PlotNPTHPair0_DrillType=Regular|PlotNPTHPair0_HighLayer=Top Layer|PlotNPTHPair0_LowLayer=Bottom Layer|PlotNPTHPair0_Plot=True|PlotNPTHPairs=False|PlotPTHPair0_DrillType=Regular|PlotPTHPair0_HighLayer=Top Layer|PlotPTHPair0_LowLayer=Bottom Layer|PlotPTHPair0_Plot=True|PlotPTHPairs=False|PlotTopLayerPlot=True|PlotTopOverlayPlot=True|PlotTopPastePlot=True|PlotTopSolderPlot=True|Record=ODBView|Units=Imperial|DocumentPath=C:\Users\Owner\Documents\altium\zero-projects\zero-node\zero-node.PcbDoc
+Configuration7_Item1=Compression_None=True|Compression_tar_tgz=True|Compression_zip=True|ExportPositivePlaneLayers=False|GenerateDRCRulesFile=False|IncludeUnconnectedMidLayerPads=False|MergeNetTieNets=False|ObjsInsideBoardOutlineOnly=False|ODBProfileLayer=-1000|ODBProfileLayerV7=-1|PlotBackDrillingPairs=False|PlotBlindViasPairs=False|PlotBottomLayerPlot=True|PlotBottomOverlayPlot=True|PlotBottomPastePlot=True|PlotBottomSolderPlot=True|PlotCounterHolesPairs=False|PlotDrillDrawingPair0_DrillType=Regular|PlotDrillDrawingPair0_HighLayer=Bottom Layer|PlotDrillDrawingPair0_LowLayer=Top Layer|PlotDrillDrawingPair0_Plot=True|PlotDrillDrawingPairs=False|PlotDrillGuidePair0_DrillType=Regular|PlotDrillGuidePair0_HighLayer=Bottom Layer|PlotDrillGuidePair0_LowLayer=Top Layer|PlotDrillGuidePair0_Plot=True|PlotDrillGuidePairs=False|PlotInternalPlane10Plot=False|PlotInternalPlane11Plot=False|PlotInternalPlane12Plot=False|PlotInternalPlane13Plot=False|PlotInternalPlane14Plot=False|PlotInternalPlane15Plot=False|PlotInternalPlane16Plot=False|PlotInternalPlane1Plot=False|PlotInternalPlane2Plot=False|PlotInternalPlane3Plot=False|PlotInternalPlane4Plot=False|PlotInternalPlane5Plot=False|PlotInternalPlane6Plot=False|PlotInternalPlane7Plot=False|PlotInternalPlane8Plot=False|PlotInternalPlane9Plot=False|PlotKeepOutLayerPlot=True|PlotMechanical10Plot=False|PlotMechanical11Plot=False|PlotMechanical12Plot=False|PlotMechanical13Plot=False|PlotMechanical14Plot=False|PlotMechanical15Plot=False|PlotMechanical16Plot=False|PlotMechanical1Plot=False|PlotMechanical2Plot=False|PlotMechanical3Plot=False|PlotMechanical4Plot=False|PlotMechanical5Plot=False|PlotMechanical6Plot=False|PlotMechanical7Plot=False|PlotMechanical8Plot=False|PlotMechanical9Plot=False|PlotMicroViasPairs=False|PlotMidLayer10Plot=False|PlotMidLayer11Plot=False|PlotMidLayer12Plot=False|PlotMidLayer13Plot=False|PlotMidLayer14Plot=False|PlotMidLayer15Plot=False|PlotMidLayer16Plot=False|PlotMidLayer17Plot=False|PlotMidLayer18Plot=False|PlotMidLayer19Plot=False|PlotMidLayer1Plot=True|PlotMidLayer20Plot=False|PlotMidLayer21Plot=False|PlotMidLayer22Plot=False|PlotMidLayer23Plot=False|PlotMidLayer24Plot=False|PlotMidLayer25Plot=False|PlotMidLayer26Plot=False|PlotMidLayer27Plot=False|PlotMidLayer28Plot=False|PlotMidLayer29Plot=False|PlotMidLayer2Plot=True|PlotMidLayer30Plot=False|PlotMidLayer3Plot=False|PlotMidLayer4Plot=False|PlotMidLayer5Plot=False|PlotMidLayer6Plot=False|PlotMidLayer7Plot=False|PlotMidLayer8Plot=False|PlotMidLayer9Plot=False|PlotNPTHPair0_DrillType=Regular|PlotNPTHPair0_HighLayer=Top Layer|PlotNPTHPair0_LowLayer=Bottom Layer|PlotNPTHPair0_Plot=True|PlotNPTHPairs=False|PlotPTHPair0_DrillType=Regular|PlotPTHPair0_HighLayer=Top Layer|PlotPTHPair0_LowLayer=Bottom Layer|PlotPTHPair0_Plot=True|PlotPTHPairs=False|PlotTopLayerPlot=True|PlotTopOverlayPlot=True|PlotTopPastePlot=True|PlotTopSolderPlot=True|Record=ODBView|Units=Imperial|DocumentPath=beovox-poe.PcbDoc
 OutputType8=PCBDrawing
 OutputName8=Draftsman
 OutputCategory8=Documentation
 OutputDocumentPath8=beovox-poe.PCBDwf
 OutputVariantName8=
-OutputEnabled8=1
+OutputEnabled8=0
 OutputEnabled8_OutputMedium1=0
 OutputEnabled8_OutputMedium2=0
 OutputEnabled8_OutputMedium3=0
@@ -150,7 +150,7 @@ OutputDefault8=0
 PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 
 [PublishSettings]
-OutputFilePath2=C:\Users\joshh\Nextcloud\Documents\altium\projects\beovox-poe\Project Outputs for beovox-poe\beovox-poe_Schematic.PDF
+OutputFilePath2=Project Outputs for beovox-poe\beovox-poe_Schematic.PDF
 ReleaseManaged2=1
 OutputBasePath2=Project Outputs for beovox-poe
 OutputPathMedia2=
@@ -177,7 +177,7 @@ ShowComponentParameters2=1
 GlobalBookmarks2=0
 PDFACompliance2=Disabled
 PDFVersion2=Default
-OutputFilePath3=C:\Users\joshh\Nextcloud\Documents\altium\projects\beovox-poe\pcb-files\Project Outputs for beovox-poe\
+OutputFilePath3=Project Outputs for beovox-poe\
 ReleaseManaged3=1
 OutputBasePath3=Project Outputs for beovox-poe
 OutputPathMedia3=
@@ -190,7 +190,7 @@ OutputFileNameMulti3==ProjectName
 UseOutputNameForMulti3=1
 OutputFileNameSpecial3=
 OpenOutput3=0
-OutputFilePath4=C:\Users\Owner\Documents\altium\projects\beovox-poe\Project Outputs for beovox-poe\beovox-poe.PDF
+OutputFilePath4=Project Outputs for beovox-poe\beovox-poe.PDF
 ReleaseManaged4=1
 OutputBasePath4=Project Outputs for beovox-poe
 OutputPathMedia4=
@@ -219,9 +219,9 @@ PDFACompliance4=Disabled
 PDFVersion4=Default
 
 [GeneratedFilesSettings]
-RelativeOutputPath2=C:\Users\joshh\Nextcloud\Documents\altium\projects\beovox-poe\Project Outputs for beovox-poe\beovox-poe_Schematic.PDF
+RelativeOutputPath2=Project Outputs for beovox-poe\beovox-poe_Schematic.PDF
 OpenOutputs2=0
-RelativeOutputPath3=C:\Users\joshh\Nextcloud\Documents\altium\projects\beovox-poe\pcb-files\Project Outputs for beovox-poe\
+RelativeOutputPath3=Project Outputs for beovox-poe\
 OpenOutputs3=0
 AddToProject3=1
 TimestampFolder3=0
@@ -231,6 +231,6 @@ OpenGerberOutput3=0
 OpenNCDrillOutput3=0
 OpenIPCOutput3=0
 EnableReload3=0
-RelativeOutputPath4=C:\Users\Owner\Documents\altium\projects\beovox-poe\Project Outputs for beovox-poe\beovox-poe.PDF
+RelativeOutputPath4=Project Outputs for beovox-poe\beovox-poe.PDF
 OpenOutputs4=1
 
