@@ -5,6 +5,9 @@
 # Local agent notes
 AGENTS.local.md
 .githooks/
+.secrets/
+.venv-gsc/
+cloudflare/
 scripts/
 tmp-cad-compare/
 
