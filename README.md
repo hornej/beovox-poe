@@ -74,9 +74,11 @@ The root README focuses on the core build. Auxiliary information lives under [gu
 
 ## Videos
 
-[Demo (CX100)](https://youtu.be/9oT_c17GFdE)
+[BeoVox PoE Demo - CX100](https://youtu.be/9oT_c17GFdE)
 
-[Assembly (CX50)](https://youtu.be/bw3L32bcnUU)
+[BoeVox PoE Assembly - CX50](https://youtu.be/0kofoiOvvGE)
+
+[BeoVox PoE Assembly - CX50 (10x speed)](https://youtu.be/bw3L32bcnUU)
 
 ## Parts List
 
