@@ -72,9 +72,12 @@ The root README focuses on the core build. Auxiliary information lives under [gu
 ![Front view](images/cx100-front.png)
 ![Rear view](images/cx100-back.png)
 
-## Video Demonstration
+## Videos
 
-[Video demo on YouTube](https://youtu.be/9oT_c17GFdE)
+[Demo (CX100)](https://youtu.be/9oT_c17GFdE)
+
+[Assembly (CX50)](https://youtu.be/bw3L32bcnUU)
+
 ## Parts List
 
 | Name                                             | Description                                                                                                                      | Link                                                                                                                                                                                                                                                                        | Cost                                                           |
@@ -108,7 +111,7 @@ The root README focuses on the core build. Auxiliary information lives under [gu
 
 ## PCB
 
-![PCB assembly](images/pcba-v2.0a.png)
+![PCB](images/pcb-corner.png)
 ### PCB Specs and Ordering
 This design was prepared to be fabricated and assembled by [JLCPCB](https://jlcpcb.com/). 
 
